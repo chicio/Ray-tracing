@@ -88,6 +88,9 @@
     Ray *ray = [[Ray alloc] init];
     ray.origin = self.scene.viewReferencePoint;
     
+    //Start time
+    [Utils currentTime:@"Start"];
+    
     //Start ray tracer.
     //I use the new queue management available since iOS8.
     //This version of iOS gives us thread quality of service (QOS) classes.
@@ -100,7 +103,7 @@
         
         int currentPixelPosition = 0;
         
-        for (int y = 0; y < self.vplane.width; y++) {
+        for (int y = 0; y < self.vplane.height; y++) {
             
             //On each iteration of the outer loop
             //a lot of obect are created in autorelease. So we need to use
@@ -111,7 +114,7 @@
             //outer loop if you remove the autorelease pool (and the app will crash).
             @autoreleasepool {
                 
-                for (int x = 0;  x < self.vplane.height;  x++) {
+                for (int x = 0;  x < self.vplane.width;  x++) {
                     
                     Vector3D *color = [[Vector3D alloc]initX:0 Y:0 Z:0];
                     
@@ -164,6 +167,9 @@
         //Remove this comment if you need to print the final image at the end of computation.
         //(Comment also the call to endTracer above).
         //endTracer(pixels, self.vplane.height, self.vplane.width);
+        
+        //Start time
+        [Utils currentTime:@"End"];
     });
 }
 

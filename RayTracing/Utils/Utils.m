@@ -25,4 +25,12 @@
     return color;
 }
 
++ (void)currentTime:(NSString *)message {
+    
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    dateFormatter.dateFormat = @"HH:mm:ss";
+    [dateFormatter setTimeZone:[NSTimeZone systemTimeZone]];
+    NSLog(@"%@: %@", message, [dateFormatter stringFromDate:[NSDate date]]);
+}
+
 @end

@@ -16,10 +16,17 @@
  Normalize color components.
  Limit colors component range between 0 and 255.
  
- @param color the color to be normalized as Vector3D
+ @param color the color to be normalized as Vector3D.
  
  @returns color normalized.
  */
 + (Vector3D *)normalizeColorComponents:(Vector3D *)color;
+
+/*!
+ Print the current time with a message associated.
+ 
+ @param message a message to be concatenated with the time.
+ */
++ (void)currentTime:(NSString *)message;
 
 @end
