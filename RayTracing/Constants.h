@@ -42,6 +42,6 @@ static float const c3 = 0; //0.000005
 #pragma mark Reflection/Refraction
 
 /// Set true to simulate dieletric material (reflection + reflaction flag set true on material components).
-static BOOL const dieletric = false;
+static BOOL const dieletric = true;
 /// Fresnel factor model used for dieletric (used when previous to true - see FresnelFactorEnum.h)
 static FresnelFactorModel const fresnelFactorModel = FresnelEquations;

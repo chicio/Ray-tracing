@@ -253,8 +253,8 @@
         
     /******* Sphere *****/
     Sphere *sphere = [[Sphere alloc] init];
-    sphere.center = [[Point3D alloc] initX:850 Y:60 Z:620];
-    sphere.radius = 60;
+    sphere.center = [[Point3D alloc] initX:760 Y:50 Z:620];
+    sphere.radius = 50;
     sphere.material = [Material glasswater];
     
     /********* Sphere 1 ********/
@@ -469,7 +469,7 @@
     Sphere *sphere1 = [[Sphere alloc] init];
     sphere1.center = [[Point3D alloc] initX:800 Y:60 Z:650];
     sphere1.radius = 60;
-    sphere1.material = [Material glasswater];
+    sphere1.material = [Material glass];
     
     [self.objects addObject:polygonSkyboxBottom];
     [self.objects addObject:polygonSkyboxLeft];

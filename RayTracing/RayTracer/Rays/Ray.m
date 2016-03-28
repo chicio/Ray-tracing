@@ -143,6 +143,9 @@
     //If you don't do this, expect strange result.
     //See also prof. Ciocca/Bianco slide for refraction ray formula.
     
+    //Get a copy of normal, because I eventually need to invert it.
+    Vector3D *norm = normal;
+    
     //The default refractive index for n1 is 1 (vacuum).
     if(cosI < 0) {
         
@@ -157,19 +160,21 @@
         //(If the outer medium change
         //remember to divide the refractive index
         //of the object with the new one).
+        //Also invert the normal.
         n = object.material.refractiveIndex;
+        norm = [norm productWithScalar:-1.0f];
     }
     
-    float cosThetaT = sqrtf(1.0 - powf(n, 2) * (1.0 - (powf(cosI, 2))));
+    float cosThetaT = fmaxf(0.0f, sqrtf(1.0 - powf(n, 2) * (1.0 - (powf(cosI, 2)))));
     
-    if (cosThetaT <= 0) {
+    if (cosThetaT == 0.0f) {
         
         //Total internal reflection.
         return nil;
     }
     
     Vector3D *temp1 = [self.direction productWithScalar:n];
-    Vector3D *temp2 = [normal productWithScalar:(n * cosI - cosThetaT)];
+    Vector3D *temp2 = [norm productWithScalar:(n * cosI - cosThetaT)];
     Vector3D *refractedRayDirection = [temp1 sum:temp2];
     
     //Origin became the intersection point.
