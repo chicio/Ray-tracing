@@ -29,11 +29,11 @@ Ray tracer for iPad developed as final project for my <a href="https://www.disco
 
 These are some images rendered using the ray tracer. For each one there's a complete list of the setup used during rendering.
 
-**Scene 1**: Antialisasing, soft shadow (128 shadow feeler ray), Phong lighting, cube mapping infinite skybox, bump mapping, phere dielectric (glass refractive index) using Fresnel equation
+**Scene 1**: Antialisasing, soft shadow (128 shadow feeler ray), Phong lighting, cube mapping infinite skybox, bump mapping,  sphere dielectric (glass refractive index) using Fresnel equation
 
 ![Scena 1 Antialisasing soft shadow (128 shadow feeler ray) Phong lighting, cube mapping infinite skybox, bump mapping, sphere dielectric (glass refractive index) using Fresnel equation](https://raw.githubusercontent.com/chicio/Ray-tracing/master/Screenshots/scene1_antialiasing_softshadow128_phong_dieletricfresnel.png)
 
-**Scene 1**: Antialisasing, soft shadow (128 shadow feeler ray), Blinn-Phong lighting, cube mapping infinite skybox, bump mapping, phere dielectric (glass refractive index) using Fresnel equation
+**Scene 1**: Antialisasing, soft shadow (128 shadow feeler ray), Blinn-Phong lighting, cube mapping infinite skybox, bump mapping, sphere dielectric (glass refractive index) using Fresnel equation
 
 ![Scena 1 Antialisasing soft shadow (128 shadow feeler ray) Blinn phong lighting, cube mapping infinite skybox, bump mapping, sphere dielectric (glass refractive index) using Fresnel equation](https://raw.githubusercontent.com/chicio/Ray-tracing/master/Screenshots/scene1_antialiasing_softshadow128_blinnphong_dieletricfresnel.png)
 
@@ -41,7 +41,7 @@ These are some images rendered using the ray tracer. For each one there's a comp
 
 ![Scena 2a Antialisasing soft shadow (128 shadow feeler ray) Phong lighting, polygon skybox, bump mapping, procedural texture with perlin noise, sphere dielectric (glass refractive index) using Fresnel equation](https://raw.githubusercontent.com/chicio/Ray-tracing/master/Screenshots/scene2a_antialiasing_softshadow128_phong_dieletricfresnel.png)
 
-**Scene 2a**:  Antialisasing, soft shadow (16 shadow feeler ray), Phong lighting, polygon skybox, bump mapping, procedural texture with perlin noise,sphere dielectric (glass refractive index) using Fresnel equation, quadratic light attenuation
+**Scene 2a**:  Antialisasing, soft shadow (16 shadow feeler ray), Phong lighting, polygon skybox, bump mapping, procedural texture with perlin noise, sphere dielectric (glass refractive index) using Fresnel equation, quadratic light attenuation
 
 ![Scena 2a Antialisasing soft shadow (16 shadow feeler ray) Phong lighting Quadratic attenuation, sphere dielectric (glass refractive index) using Fresnel equation](https://raw.githubusercontent.com/chicio/Ray-tracing/master/Screenshots/scene2a_antialiasing_softshadow16_phong_dieletricfresnel_quadratic.png)
 
