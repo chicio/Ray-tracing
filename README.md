@@ -1,4 +1,8 @@
 # Ray-tracing
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/chicio/Ray-Tracing/master/LICENSE.md)
+![Supported platform] (https://img.shields.io/badge/platforms-iOS-orange.svg)
+
 Ray tracer for iPad developed as final project for my <a href="https://www.disco.unimib.it/upload/pag/1667904909074911183/f1/f1801q120informaticagrafica20132014engv2.pdf">computer graphics course at University Milano-Bicocca.</a>
 
 ***
