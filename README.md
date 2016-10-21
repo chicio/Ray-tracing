@@ -36,27 +36,39 @@ These are some images rendered using the ray tracer. For each one there's a comp
 
 **Scene 1**: Antialisasing, soft shadow (128 shadow feeler ray), Phong lighting, cube mapping infinite skybox, bump mapping,  sphere dielectric (glass refractive index) using Fresnel equation
 
-![Scena 1 Antialisasing soft shadow (128 shadow feeler ray) Phong lighting, cube mapping infinite skybox, bump mapping, sphere dielectric (glass refractive index) using Fresnel equation](https://raw.githubusercontent.com/chicio/Ray-tracing/master/Screenshots/scene1_antialiasing_softshadow128_phong_dieletricfresnel.png)
+<p align="center">
+<img src="https://raw.githubusercontent.com/chicio/Ray-tracing/master/Screenshots/scene1_antialiasing_softshadow128_phong_dieletricfresnel.png">
+</p>
 
 **Scene 1**: Antialisasing, soft shadow (128 shadow feeler ray), Blinn-Phong lighting, cube mapping infinite skybox, bump mapping, sphere dielectric (glass refractive index) using Fresnel equation
 
-![Scena 1 Antialisasing soft shadow (128 shadow feeler ray) Blinn phong lighting, cube mapping infinite skybox, bump mapping, sphere dielectric (glass refractive index) using Fresnel equation](https://raw.githubusercontent.com/chicio/Ray-tracing/master/Screenshots/scene1_antialiasing_softshadow128_blinnphong_dieletricfresnel.png)
+<p align="center">
+<img src="https://raw.githubusercontent.com/chicio/Ray-tracing/master/Screenshots/scene1_antialiasing_softshadow128_blinnphong_dieletricfresnel.png">
+</p>
 
 **Scene 2a**: Antialisasing, soft shadow (128 shadow feeler ray), Phong lighting, polygon skybox, bump mapping, procedural texture with perlin noise, sphere dielectric (glass refractive index) using Fresnel equation
 
-![Scena 2a Antialisasing soft shadow (128 shadow feeler ray) Phong lighting, polygon skybox, bump mapping, procedural texture with perlin noise, sphere dielectric (glass refractive index) using Fresnel equation](https://raw.githubusercontent.com/chicio/Ray-tracing/master/Screenshots/scene2a_antialiasing_softshadow128_phong_dieletricfresnel.png)
+<p align="center">
+<img src="https://raw.githubusercontent.com/chicio/Ray-tracing/master/Screenshots/scene2a_antialiasing_softshadow128_phong_dieletricfresnel.png">
+</p>
 
 **Scene 2a**:  Antialisasing, soft shadow (16 shadow feeler ray), Phong lighting, polygon skybox, bump mapping, procedural texture with perlin noise, sphere dielectric (glass refractive index) using Fresnel equation, quadratic light attenuation
 
-![Scena 2a Antialisasing soft shadow (16 shadow feeler ray) Phong lighting Quadratic attenuation, sphere dielectric (glass refractive index) using Fresnel equation](https://raw.githubusercontent.com/chicio/Ray-tracing/master/Screenshots/scene2a_antialiasing_softshadow16_phong_dieletricfresnel_quadratic.png)
+<p align="center">
+<img src="https://raw.githubusercontent.com/chicio/Ray-tracing/master/Screenshots/scene2a_antialiasing_softshadow16_phong_dieletricfresnel_quadratic.png">
+</p>
 
 **Scene 2b**: Antialisasing, soft shadow (16 shadow feeler ray), Blinn-Phong lighting, polygon skybox, procedural texture with perlin noise, camera on left side, sphere dielectric (glass refractive index) using Fresnel equation
 
-![Scena 2b Antialisasing Blinn-Phong lighting sphere dielectric (glass refractive index) using Schlick approximation](https://github.com/chicio/Ray-tracing/raw/master/Screenshots/scene2b_antialiasing_softshadow16_blinnphong_dieletricfresnel.png)
+<p align="center">
+<img src="https://github.com/chicio/Ray-tracing/raw/master/Screenshots/scene2b_antialiasing_softshadow16_blinnphong_dieletricfresnel.png">
+</p>
 
 **Scene 2b**: Antialisasing, soft shadow (16 shadow feeler ray), Phong lighting, polygon skybox, procedural texture with perlin noise, camera on left side, sphere dielectric (glass refractive index) using Schlick's approximation
 
-![Scena 2b Antialisasing, soft shadow (16 shadow feeler ray), Phong lighting lighting, procedural texture with perlin noise, camera on left side, glass dielectric using Schlick's approximation](https://raw.githubusercontent.com/chicio/Ray-tracing/master/Screenshots/scene2b_antialiasing_softshadow16_phong_dieletricschlick.png)
+<p align="center">
+<img src="https://raw.githubusercontent.com/chicio/Ray-tracing/master/Screenshots/scene2b_antialiasing_softshadow16_phong_dieletricschlick.png">
+</p>
 
 ***
 
