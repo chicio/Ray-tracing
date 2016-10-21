@@ -1,5 +1,4 @@
 language: objective-c
 osx_image: xcode8
-xcode_project: RayTracing.xcodeproj
-xcode_scheme: RayTracing-Release
-        
+script:
+ - xcodebuild -project RayTracing.xcodeproj -scheme RayTracing-Release clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO 
