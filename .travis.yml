@@ -1,4 +1,5 @@
 language: objective-c
+osx_image: xcode8
 xcode_project: RayTracing.xcodeproj
 xcode_scheme: RayTracing-Release
         
