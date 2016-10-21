@@ -1,0 +1,4 @@
+language: objective-c
+xcode_project: RayTracing.xcodeproj
+xcode_scheme: RayTracing-Release
+        

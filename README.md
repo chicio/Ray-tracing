@@ -1,5 +1,6 @@
 # Ray-tracing
 
+[![Build Status](https://travis-ci.org/chicio/Ray-tracing.svg?branch=master)](https://travis-ci.org/chicio/Ray-tracing)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/chicio/Ray-Tracing/master/LICENSE.md)
 ![Supported platform] (https://img.shields.io/badge/platforms-iOS-orange.svg)
 
