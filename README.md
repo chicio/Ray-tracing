@@ -2,13 +2,13 @@
 
 [![Build Status](https://travis-ci.org/chicio/Ray-tracing.svg?branch=master)](https://travis-ci.org/chicio/Ray-tracing)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/chicio/Ray-Tracing/master/LICENSE.md)
-![Supported platform] (https://img.shields.io/badge/platforms-iOS-orange.svg)
+[![Supported platform](https://img.shields.io/badge/platforms-iOS-orange.svg)](https://img.shields.io/badge/platforms-iOS-orange.svg)
 
 Ray tracer for iPad developed as final project for my <a href="https://www.disco.unimib.it/upload/pag/1667904909074911183/f1/f1801q120informaticagrafica20132014engv2.pdf">computer graphics course at University Milano-Bicocca.</a>
 
 ***
 
-###Main features
+### Main features
 - Support sphere and convex polygon
 - Phong and Blinn-Phong lighting model 
     * light attenuation factor
@@ -30,7 +30,7 @@ Ray tracer for iPad developed as final project for my <a href="https://www.disco
 
 ***
 
-###Screenshot
+### Screenshot
 
 These are some images rendered using the ray tracer. For each one there's a complete list of the setup used during rendering.
 
@@ -72,7 +72,7 @@ These are some images rendered using the ray tracer. For each one there's a comp
 
 ***
 
-###Description
+### Description
 
 The ray tracer is developed entirely in Objective-C as an iPad app.
 The interface let the user manage some of the options available:
@@ -103,7 +103,7 @@ Finally, most of the core implementation of the ray tracer are inspired by the c
 
 ***
 
-###Documentation
+### Documentation
 
 All classes, methods and variables are documented with comments using sourcekit tags. Using XCode it is possible to access the documentation while reading the code using Alt + left mouse click.
 
@@ -111,7 +111,7 @@ All classes, methods and variables are documented with comments using sourcekit 
 
 ***
 
-###References
+### References
 
 Main references:
 * Course slides
